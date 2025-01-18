@@ -27,7 +27,8 @@ const Home = ({ navigation }) => {
   return (
     <SafeAreaView>
       <View style={DefaultStyle.p2}>
-        <Text>Yours this month's expense</Text>
+        <ButtonComponent label={'Make Payment'} iconRight={'account-balance-wallet'} onPress={handleMakePayment} />
+        <ButtonComponent label={'Logout'} iconRight={'logout'} onPress={handleLogout} />
       </View>
     </SafeAreaView>
   )

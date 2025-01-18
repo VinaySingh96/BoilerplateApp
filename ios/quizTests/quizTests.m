@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface auto-expense-trackerTests : XCTestCase
+@interface quizTests : XCTestCase
 
 @end
 
-@implementation auto-expense-trackerTests
+@implementation quizTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

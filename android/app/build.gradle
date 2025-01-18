@@ -78,9 +78,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.quiz"
+    namespace "com.autoExpenseTracker"
     defaultConfig {
-        applicationId "com.quiz"
+        applicationId "com.autoExpenseTracker"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

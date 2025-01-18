@@ -13,7 +13,7 @@ import { fetchUserProfile } from '../../api/user';
 const Stack = createStackNavigator();
 
 const RootNavigator = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(null); // Manage authentication state
+  const [isAuthenticated, setIsAuthenticated] = useState(true); // Manage authentication state
   const {setUser} = useContext(UserContext);
 
   useEffect(() => {
